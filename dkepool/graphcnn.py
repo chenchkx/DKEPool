@@ -2,12 +2,10 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import sys
-sys.path.append("models/")
-from mlp import MLP
+from dkepool.mlp import MLP
 
 from torch.autograd import Variable
-from .mpn_cov import FastMPNSPDMatrix
-from .mean_norm import MEANNorm
+from dkepool.mpn_cov import FastMPNSPDMatrix
 
 class GraphCNN(nn.Module):
     def __init__(self, num_layers, num_mlp_layers, input_dim, hidden_dim, output_dim, rep_dim, final_dropout, learn_eps,

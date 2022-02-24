@@ -10,8 +10,6 @@ import numpy as np
 from tqdm import tqdm
 
 from util import load_data, separate_data
-# from models.graphcnn import GraphCNN
-# from sopool_attn.graphcnn import GraphCNN
 from dkepool.graphcnn import GraphCNN
 
 criterion = nn.CrossEntropyLoss()
@@ -125,7 +123,7 @@ def main():
                         help='let the input node features be the degree of nodes (heuristics for unlabeled graph)')
     parser.add_argument('--rep_dim', type=int, default=200,
                         help='The dimension of final representations')
-    parser.add_argument('--dke_type', type=int, default=0,
+    parser.add_argument('--dke_type', type=int, default=1,
                         help='Whether to use robust DKEPool module')
     parser.add_argument('--dke_snr', type=int, default=15,
                         help='snr for robust DKEPool module')
