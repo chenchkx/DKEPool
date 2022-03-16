@@ -22,8 +22,8 @@ For DKEPool module tested on MUTAG dataset, run
 
 ```
 open run_mutag.sh file
+set DKE_TYPE="${5-0}"
 
-DKE_TYPE="${5-0}"
 sh run_mutag.sh
 ```
 
@@ -31,7 +31,7 @@ For robust DKEPool module tested on MUTAG dataset, run
 
 ```
 open run_mutag.sh file
+set DKE_TYPE="${5-1}"
 
-DKE_TYPE="${5-1}"
 sh run_mutag.sh
 ```
