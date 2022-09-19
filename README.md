@@ -9,7 +9,7 @@ Created by [Kaixuan Chen](chenkx@zju.edu.cn) (chenkx@zju.edu.cn, chenkx.jsh@aliy
 If you find our code useful for your research, please kindly cite our paper.
 
 ```
-@article{chen2021distribution,
+@article{chen2022DKEPool,
   title={Distribution Knowledge Embedding for Graph Pooling},
   author={Chen, Kaixuan and Song, Jie and Liu, Shunyu and Yu, Na and Feng, Zunlei and Han, Gengshi and Song, Mingli},
   journal={IEEE Transactions on Knowledge and Data Engineering},
