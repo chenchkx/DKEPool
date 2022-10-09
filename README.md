@@ -1,6 +1,6 @@
 # Distribution Knowledge Embedding for Graph Pooling
 
-This is the code for our paper "[Distribution Knowledge Embedding for Graph Pooling](https://ieeexplore.ieee.org/abstract/document/9896198/authors#authors)". It is based on the code from [SOPool](https://github.com/divelab/sopool). Many thanks!
+This is the code for our paper "[Distribution Knowledge Embedding for Graph Pooling](https://ieeexplore.ieee.org/abstract/document/9896198)". It is based on the code from [SOPool](https://github.com/divelab/sopool). Many thanks!
 
 Created by [Kaixuan Chen](chenkx@zju.edu.cn) (chenkx@zju.edu.cn, chenkx.jsh@aliyun.com)
 
