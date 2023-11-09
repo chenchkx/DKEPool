@@ -155,7 +155,6 @@ def main():
 
         avg_loss = train(args, model, device, train_graphs, optimizer, epoch)
         acc_train, acc_test = test(args, model, device, train_graphs, test_graphs, epoch)
-        optimizer.step()
         max_acc = max(max_acc, acc_test)
         # print("maximum acc: %f, lr: %f " % (max_acc,optimizer.param_groups[0]['lr']))
         # print("")
