@@ -52,8 +52,6 @@ class GraphCNN(nn.Module):
         self.dke_type = dke_type
         self.dke_snr = dke_snr
 
-        # self.mean_norm = MEANNorm(self.gauss_dim)
-        # If you want to reproduce the results in the paper, please perform the above line code, which has have a certain impact on the initial parameters.
         self.mpn_cov = FastMPNSPDMatrix()
         self.dke_map = nn.Linear(self.gauss_dim, rep_dim, bias=False)
 
